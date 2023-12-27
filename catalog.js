@@ -30,9 +30,9 @@ const db = getDatabase(app);
 
 
 document.addEventListener("DOMContentLoaded", function () {
-  var swiper1;
-var swiper2
-var swiper3
+  let swiper1;
+let swiper2
+let swiper3
   try {
     function initializeSwiper() {
       swiper1 = new Swiper("#swiper1", {
